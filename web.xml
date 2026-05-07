@@ -1,0 +1,13 @@
+<web-app>
+
+  <servlet>
+    <servlet-name>DiscountServlet</servlet-name>
+    <servlet-class>com.swati.DiscountServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DiscountServlet</servlet-name>
+    <url-pattern>/discount</url-pattern>
+  </servlet-mapping>
+
+</web-app>
